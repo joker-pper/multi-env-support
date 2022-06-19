@@ -1,0 +1,19 @@
+logging:
+  level:
+    root: info
+
+
+server:
+  tomcat.uri-encoding: UTF-8
+  port: 8281
+  connectionTimeout: 8000
+
+
+sys.env: dev
+  
+sys.default.ak: 111
+sys.default.sk: qwerty
+sys.default.token: 12345
+  
+sys.dev.ak: 222
+sys.dev.sk: zxc
